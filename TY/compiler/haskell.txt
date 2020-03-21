@@ -1,0 +1,12 @@
+*Haskell is a functional programming language it uses lambda calculus at its core
+*lambda calculus and turing machines are two equivalent mathematical models
+all the problems implemented on turing machines can be implemented using lambda calculus
+
+why lambda calculus and functional programming
+lambda calculus uses the most natural form for representing a given problem. As languages like haskell work on lambda calculus directly complex tasks can be programmed very easily
+	*lambda.png
+
+*Haskell uses GHC i.e. glasgow haskell compiler
+	IT is-
+	*native code generator compiler
+	

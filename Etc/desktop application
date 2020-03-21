@@ -1,0 +1,17 @@
+Notes to create desktop application from executables like comipled c,cpp,python scripts,java archive files etc.
+
+1.create a executable(should run from command line ) which is preferably gui application.other wise creating desktop application will make no sense.
+
+2.Once you have executable you need to create a small ".desktop" file in /usr/share/applications ,which will create a desktop shortcut.
+
+3.the following format is self explanatory:
+
+example.desktop
+	[Desktop Entry]
+	Name=Android Studio
+	Comment=Android Studio
+	Exec=/opt/android-studio/bin/studio.sh
+	Icon=/opt/android-studio/bin/studio.png
+	Terminal=false
+	Type=Application
+	Categories=Development

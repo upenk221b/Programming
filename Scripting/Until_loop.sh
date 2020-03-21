@@ -1,0 +1,8 @@
+#!/bin/bash
+# Until loop --compliment of while
+n=1
+until [ $n -gt 10 ]
+do
+	echo $n
+	n=$(( n+1 ))
+done
