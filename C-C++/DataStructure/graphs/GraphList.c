@@ -1,7 +1,7 @@
 //this is the adjascency list representation of graph
 #include<stdio.h>
 #include<stdlib.h>
-#include"Graphlist.h"
+#include"GraphList.h"
 
 //function to create new node in AdjList
 struct AdjListNode* addNode(int destination){
